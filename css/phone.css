@@ -1,0 +1,72 @@
+#navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 116%;
+
+}
+#menu li {
+    font-size: 13px;
+    padding: 0px;
+    margin: 0;
+}
+#menu li a{
+    padding:10px;
+    margin-left: 0px;
+}
+
+#menu p{
+    font-size: 13px;
+}
+.container .btn {
+    padding: 9px;
+    font-size: 13px;
+
+}
+#navbar #logo {
+    margin: 10px auto;
+}
+
+.h1-p {
+    font-size: 28px;
+
+}
+
+.container {
+    height: 380px;
+    padding: 10;
+    padding-left: 20;
+    width: 100%;
+
+}
+.container::before {
+    height: 699px;
+    width: 121%;
+}
+
+.services{
+    flex-direction: column;
+}
+.services{
+    margin: 20px;
+}
+
+.clients {
+    flex-wrap: wrap;
+}
+
+.client-container{
+    width: 116%;
+}
+
+.clients .client-items img {
+    height: 70px;
+    width: 70px;
+    margin: 50px;
+    
+}
+
+.contact {
+    width: 116%;
+
+}
